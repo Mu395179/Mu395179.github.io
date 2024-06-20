@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.img-fluid {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-li {
+    line-height: 4;
+
+}
+
+
+
+.scroll {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin: auto;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+}
+
+.scroll {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin: auto;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+}
+
+.scroll div {
+    white-space: nowrap;
+    animation: animate2 var(--t) linear infinite;
+    animation-delay: calc(var(--t) * -1);
+}
+
+.scroll:nth-child(2) div {
+    white-space: nowrap;
+    animation: animate var(--t) linear infinite;
+    animation-delay: calc(var(--t) * -1);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scroll div span {
+    display: inline-flex;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.scroll div span:hover {
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+.imgbx {
+    position: relative;
+}
+
+.imgbx img {
+    max-width: 100px;
+    transition: 0.5s;
+}
+
+.imgbx img:hover {
+    scale: 1.2;
+    filter: grayscale(1);
+    position: relative;
+    /* Ensure the icon is positioned relative to the image */
+}
