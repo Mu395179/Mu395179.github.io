@@ -1,46 +1,84 @@
 * {
     box-sizing: border-box;
-    background-color: white;
-}
-
-body {
-    background-color: lightgray;
-}
-
-.navbar {
-    position: fixed;
-}
-
-.img-fluid {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.custom-li {
-    line-height: 4;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
 }
 
+.header {
+    width: 100%;
+    height: 3vh;
+}
 
+
+
+.content {
+
+    height: 95vh;
+
+}
+
+.top {
+    background-image: url(./images/top.jpg);
+    background-position: 30% 15%;
+}
+
+.title {
+    align-self: start;
+    text-align: center;
+    padding-top: 70px;
+
+    font-weight: 1000;
+}
+
+li {
+    font-size: x-large;
+}
+
+
+.aboutmebox {
+
+    padding-top: 200px;
+    align-items: center;
+    /* 垂直置中 */
+
+    /* 確保容器有高度 */
+    text-align: start;
+    /* 可選，將文字內部對齊中心 */
+
+}
+
+
+.textbox {
+    display: flex;
+    justify-content: center;
+    /* 水平置中 */
+    align-items: center;
+    /* 垂直置中 */
+
+    /* 確保容器有高度 */
+    text-align: center;
+    /* 可選，將文字內部對齊中心 */
+
+}
 
 .scroll {
     position: relative;
     width: 100%;
-    height: 30vh;
+    /* height: 30vh; */
     overflow: hidden;
     margin: auto;
     -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
 }
 
-.scroll div {
+.scroll .normal {
     white-space: nowrap;
     animation: animate var(--t) linear infinite;
     animation-delay: calc(var(--t) * -2);
 }
 
-.scroll .test {
+.scroll .reverse {
     white-space: nowrap;
     animation: animate2 var(--t) linear infinite;
     animation-delay: calc(var(--t) * -2);
@@ -88,4 +126,66 @@ body {
 
 .imgbx div:hover {
     animation-play-state: paused;
+}
+
+.timeline {
+    margin-top: 5EM;
+    margin-left: 10em;
+    margin-right: 10em;
+    max-width: 34.15em;
+    border-left: 3px solid black;
+
+}
+
+.timelinetitle {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    background-color: darkblue;
+    border: 0px;
+    border-radius: 5px;
+    color: lightgray;
+    margin-bottom: 3em;
+}
+
+.checkpoint {
+    max-width: 34em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    position: relative;
+}
+
+
+.checkpoint p {
+    line-height: 100px;
+    color: black;
+
+}
+
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid darkblue;
+    padding-left: 3em;
+    transform: translateX(17em);
+
+}
+
+.checkpoint:nth-child(even) {
+    border-left: 3px solid darkblue;
+    padding-left: 3em;
+    transform: translateX(-17em);
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    /* 水平置中 */
+    align-items: center;
+    /* 垂直置中 */
+
+    /* 確保容器有高度 */
+    text-align: center;
+    /* 可選，將文字內部對齊中心 */
 }

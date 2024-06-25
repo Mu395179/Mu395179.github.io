@@ -9,75 +9,90 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>MY Profile</title>
-
+    <title>my porfile</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#about">About</a>
-                            <a class="nav-link" href="#Resume">Resume</a>
-                            <a class="nav-link" href="#">Portfolio</a>
-                            <a class="nav-link" href="#">Contect</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="row about" id="about">
-            <div class="col-12">
-                <h3>關於我</h3>
-                <p> 您好，我叫吳威儒。這是我的個人網站，我曾在偉創力（Flex）擔任倉儲行政助理已有八年的工作經驗。<br>
-                    在這段時間內，我積累了豐富的管理和協調經驗，熟悉倉儲管理的各個環節，並能有效地處理日常的行政工作。<br>
-                    我認為這些經驗讓我具備了良好的組織能力和溝通技巧，並且能夠在高壓環境中保持冷靜和高效。<br><br>
-                    <br>
-                    除了在倉儲管理方面的工作經驗，我還積極提升自己的技能，參加了在職訓局為期半年的前端和後端網頁技能培訓。<br>
-                    在這段培訓期間，<strong>我學習了HTML、CSS、JavaScript等前端技術，以及PHP、My SQL等後端技術</strong>，並能夠獨立完成網頁的開發與維護。<br><br>
-                    <br>
-                    我特別想提到的是，<strong>我曾獨立完成了一個線上畫廊的PHP網頁</strong>。從CRUD的建立到頁面的排版都是獨力完成，這讓我對整個開發流程有了更深刻的理解，也提升了我在實際應用中解決問題的能力。<br><br>
-                    <br>
-                    綜合以上經歷，我相信我能夠為貴公司帶來積極的影響。期望能夠在新的工作環境中繼續成長，為團隊貢獻自己的力量。
-                </p><br><br>
-            </div>
-            <div class="col-12 col-xxl-4 "><img src="./image/04.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-12 col-lg-12 col-xxl-8 ">
-                <div class="row">
-                    <div class=" ml-5 col-12 col-lg-5 mx-auto mg-auto col-xxl-4 d-flex-center">
-                        <ul>
-                            <li class="custom-li"><strong>Birthday:</strong> 1993.10.23</li>
-                            <li class="custom-li"><strong>Phone:</strong> 0926-572-693</li>
-                            <li class="custom-li"><strong>City:</strong> 新北 淡水 & 三重</li>
-                            <li class="custom-li"><strong>Age:</strong> 30</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-5 col-xxl-7 d-flex-center mx-auto">
-                        <ul>
-                            <li class="custom-li"><strong>Educational qualifications:</strong> 輔仁大學餐旅管理學系</li>
-                            <li class="custom-li"><strong>GitHub: </strong><a
-                                    href="https://github.com/Mu395179">https://github.com/Mu395179</a>
-                            </li>
-                            <li class="custom-li"><strong>E-mail:</strong> d128579744@gmail.com</li>
-                            <li class="custom-li"><strong>Employment status:</strong> 待業中</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="Resume"></div>
+    <div class="container-fluid header">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 
-        <div class="row mt-5 scroll imgbx" style="--t:20s">
-            <div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Illustrator">Illustrator Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Resume">Resume</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </div>
+    <div class="conrainer-fluid content top">
+
+    </div>
+
+    <div class="container-fluid mb-5 content">
+        <div class="row" id="aboutme">
+            <div class="col-12 title">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="row mt-1 mb-3 h-100">
+            <div class="col-12 col-lg-6 mt-3 mb-3 d-flex justify-content-center align-items-center">
+                <img class="rounded img-fluid w-50" src="./images/01.jpg" alt="" srcset="">
+            </div>
+            <div class="aboutmebox col-6">
+
+                <h1>PHP Web Design Training Course</h1>
+                <br><br>
+                <ul>
+                    <li>Spent more than six months focusing on:
+                        <ul>
+                            <li>Visual arts</li>
+                            <li>Front-end web design</li>
+                            <li>MySQL database</li>
+                            <li>Back-end programming languages</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Acquired skills to build websites with both front-end and back-end capabilities, including
+                        development using VSCode/Apache</li>
+                    <br>
+                    <li>Possess fundamental concepts of:
+                        <ul>
+                            <li>PHP programming language flow control</li>
+                            <li>Relational table operations with PHPMyAdmin</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Learned basic command operations of version control systems such as Git</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </div>
+    <div class="container-fluid content" style="background-color: lightgray;">
+        <div class="row" id="Illustrator">
+            <div class="col-12 title">
+                <h3>Illustrator Design Portfolio</h3>
+            </div>
+        </div>
+        <div class="row mt-1 mb-3 scroll imgbx" style="--t:20s">
+            <div class="normal">
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
                         src="PNG_File\Antelope.png" alt="Bird"></a>
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
@@ -98,12 +113,6 @@
                         src="./PNG_File/Dolphin.png" alt="Squirrel"></a>
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
                         src="./PNG_File/Fox.png" alt="Squirrel"></a>
-
-            </div>
-        </div>
-
-        <div class="row scroll imgbx" style="--t:20s">
-            <div class="test">
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
                         src="./PNG_File/Hippo.png" alt="Squirrel"></a>
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
@@ -124,10 +133,141 @@
                         src="./PNG_File/Squirrel.png" alt="Squirrel"></a>
                 <a href="https://github.com/Mu395179/illustrator_portfolio" title="Go to Github"><img
                         src="./PNG_File/Whale.png" alt="Squirrel"></a>
+
             </div>
         </div>
-
+        <div class="row mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="imagebox col-6">
+                                <img src="./PNG_File/Bear.png" alt="">
+                            </div>
+                            <div class="textbox col-6">
+                                <h1>Bear</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="imagebox col-6">
+                                <img src="./PNG_File/Cat.png" alt="">
+                            </div>
+                            <div class="textbox col-6">
+                                <h1>Cat</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="imagebox col-6">
+                                <img src="./PNG_File/Dog.png" alt="">
+                            </div>
+                            <div class="textbox col-6">
+                                <h1>Dog</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </div>
+    <hr>
+    <div class="container-fluid mb-5 content">
+        <div class="row" id="Resume">
+            <div class="col-12 title">
+                <h2>Resume</h2>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-6 timeline ">
+                <div class="checkpoink">
+                    <div class="timelinetitle ">
+                        <h2>Learning Skill</h2>
+                    </div>
+                    <div>
+                        <h3><strong>PHP Programming Language</strong></h3>
+                        <p>Learned backend web development techniques using PHP as the development tool.</p>
+                    </div>
+                    <div>
+                        <h2><strong>MariaDB Database</strong></h2>
+                        <p>Learned to plan database tables and use backend programming to retrieve data.</p>
+                    </div>
+                    <div>
+                        <h2><strong>HTML, CSS Web Layout</strong></h2>
+                        <p>Learned web layout and beautification techniques, and can independently complete layout and
+                            visual presentation.</p>
+                    </div>
+                    <div>
+                        <h2><strong>JavaScript Dynamic Web Design</strong></h2>
+                        <p>Learned to use JavaScript to dynamically modify web content and accurately capture DOM
+                            elements.</p>
+                    </div>
+                    <div>
+                        <h2><strong>jQuery Dynamic Web Design</strong></h2>
+                        <p>Learned the JavaScript library to enhance coding efficiency.</p>
+                    </div>
+                    <div>
+                        <h2><strong>Bootstrap Framework Usage</strong></h2>
+                        <p>Learned to use the open-source framework and can read official documentation to correctly use
+                            the framework.</p>
+                    </div>
+                    <div>
+                        <h2><strong>Laravel Framework Usage</strong></h2>
+                        <p>Learned MVC design concepts and can use Laravel to design projects.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 timeline ">
+                <div class="checkpoink">
+                    <div class="timelinetitle">
+                        <h2>Work Experience</h2>
+                    </div>
+                    <div>
+                        <h2><strong>Logistics Management: </strong></h2>
+                        <p>Ability to effectively manage warehouse operations including receiving, storing, shipping,
+                            and inventory management.</p>
+                    </div>
+                    <div>
+                        <h2><strong>Problem-solving Skills: </strong></h2>
+                        <p>Ability to quickly address various operational issues that may arise in warehouse operations,
+                            such as inventory discrepancies or transportation delays, and effectively resolve and
+                            document these issues.</p>
+                    </div>
+                    <div>
+                        <h2><strong>Technical Understanding and Application: </strong></h2>
+                        <p>Basic technical knowledge to identify different parts and materials related to the company's
+                            products, ensuring proper storage and usage according to specifications.</p>
+                    </div>
+                    <div>
+                        <h2><strong>Attention to Detail: </strong></h2>
+                        <p>Ability to maintain attentiveness and manage details in a fast-paced environment to avoid
+                            inventory errors or other issues due to oversight.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conrainer-fluid footer bg-dark">
+        <p>Thank you for your time and attention.
+        </p>
+    </div>
+
+
+
 </body>
 
 </html>
