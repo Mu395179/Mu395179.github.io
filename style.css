@@ -39,7 +39,7 @@ li {
 
 .aboutmebox {
 
-    padding-top: 200px;
+    padding-top: 150px;
     align-items: center;
     /* 垂直置中 */
 
@@ -60,6 +60,14 @@ li {
     /* 確保容器有高度 */
     text-align: center;
     /* 可選，將文字內部對齊中心 */
+}
+
+.arousel01 {
+    height: 80vh;
+}
+
+.sample {
+    padding-top: 30px;
 
 }
 
@@ -114,12 +122,12 @@ li {
     position: relative;
 }
 
-.imgbx img {
+.imgbx .imgball {
     max-width: 100px;
     transition: 0.5s;
 }
 
-.imgbx img:hover {
+.imgbx .imgball:hover {
     scale: 1.2;
     filter: grayscale(1);
 }
@@ -128,12 +136,16 @@ li {
     animation-play-state: paused;
 }
 
+
+
+
+
 .timeline {
-    margin-top: 5EM;
+    margin-top: 3em;
     margin-left: 10em;
     margin-right: 10em;
     max-width: 34.15em;
-    border-left: 3px solid black;
+    border-left: 7px solid darkblue;
 
 }
 
