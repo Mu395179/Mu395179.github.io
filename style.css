@@ -39,7 +39,7 @@ li {
 
 .aboutmebox {
 
-    padding-top: 150px;
+    padding-top: 50px;
     align-items: center;
     /* 垂直置中 */
 
@@ -77,19 +77,19 @@ li {
     /* height: 30vh; */
     overflow: hidden;
     margin: auto;
-    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+    /* -webkit-mask-image: linear-gradient(90deg, transparent, #fff 10%, #fff 90%, transparent); */
 }
 
 .scroll .normal {
     white-space: nowrap;
     animation: animate var(--t) linear infinite;
-    animation-delay: calc(var(--t) * -2);
+    animation-delay: calc(var(--t) / -2);
 }
 
 .scroll .reverse {
     white-space: nowrap;
     animation: animate2 var(--t) linear infinite;
-    animation-delay: calc(var(--t) * -2);
+    animation-delay: calc(var(--t) / -2);
 }
 
 @keyframes animate {
