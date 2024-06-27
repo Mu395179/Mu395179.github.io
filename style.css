@@ -40,11 +40,11 @@ li {
 .aboutmebox {
 
     padding-top: 50px;
-    align-items: center;
+    /* align-items: center; */
     /* 垂直置中 */
 
     /* 確保容器有高度 */
-    text-align: start;
+    /* text-align: start; */
     /* 可選，將文字內部對齊中心 */
 
 }
